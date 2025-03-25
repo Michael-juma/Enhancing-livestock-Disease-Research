@@ -1,0 +1,26 @@
+{
+  "name": "enhancing-livestock-disease-research",
+  "version": "1.0.0",
+  "description": "# Livestock Diseases Reserve Research: Enhancing Disease Management and Prevention in Agricultural Systems",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michael-juma/Enhancing-livestock-Disease-Research.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Michael-juma/Enhancing-livestock-Disease-Research/issues"
+  },
+  "homepage": "https://github.com/Michael-juma/Enhancing-livestock-Disease-Research#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "bootstrap": "^5.3.3",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security"
+  }
+}

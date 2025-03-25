@@ -1,47 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Livestock Disease Research</title>
-  <link rel="stylesheet" href="/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disease Information</title>
+   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Livestock Disease Research</h1>
+    <h1>LIVESTOCKS DISEASES RESEACH</h1>
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search diseases..." />
+        <button id="search-btn">Search</button>
+    </div>
+
+
+     <section class="container">
+    <div class="table-container">
+        <h3>Disease List</h3>
+        <table id="disease-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Animal Type</th>
+                    <th>Symptoms</th>
+                    <th>Treatment</th>
+                    <th>Image</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+</section>
+
+
+
+    <div class="container">
+        <h2>Diseases Information Collection Base</h2>
+
+        
+        <div class="form-container">
+            <h3>Add New Disease</h3>
+            <form id="disease-form">
+                <label for="disease-name">Disease Name:</label>
+                <input type="text" id="disease-name" name="name" required><br><br>
+
+                <label for="animal-type">Animal Type:</label>
+                <input type="text" id="animal-type" name="animalType" required><br><br>
+
+                <label for="symptoms">Symptoms:</label>
+                <textarea id="symptoms" name="symptoms" rows="4" required></textarea><br><br>
+
+                <label for="treatment">Treatment:</label>
+                <textarea id="treatment" name="treatment" rows="4" required></textarea><br><br>
+
+                <label for="symptom-image">Symptom Image:</label>
+                <input type="file" id="symptom-image" name="image" accept="image/*" style="display: none;">
+                <button type="button" id="add-image-btn">Add Image</button><br><br>
+
+                <div id="image-preview" class="image-preview"></div><br>
+
+                <button type="submit">Add Disease</button>
+            </form>
+        </div>
+
+        
     
-    <form id="disease-form">
-      <label for="disease-name">Disease Name:</label>
-      <input type="text" id="disease-name" name="disease-name" required>
-
-      <label for="animal-type">Animal Type:</label>
-      <input type="text" id="animal-type" name="animal-type" required>
-
-      <label for="symptoms">Symptoms:</label>
-      <input type="text" id="symptoms" name="symptoms" required>
-
-      <label for="treatment">Treatment:</label>
-      <input type="text" id="treatment" name="treatment" required>
-
-      <button type="submit">Add Disease Record</button>
-    </form>
-    
-    <h2>Disease Records</h2>
-    <table id="disease-table">
-      <thead>
-        <tr>
-          <th>Disease Name</th>
-          <th>Animal Type</th>
-          <th>Symptoms</th>
-          <th>Treatment</th>
-        </tr>
-      </thead>
-      <tbody>
-    
-      </tbody>
-    </table>
-  </div>
-  
-  <script src="/src/index.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
