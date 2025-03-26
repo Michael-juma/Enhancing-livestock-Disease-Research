@@ -5,6 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+p {
+  color: #1303a5;
+}
 
 body {
   background-image: url(''); 
