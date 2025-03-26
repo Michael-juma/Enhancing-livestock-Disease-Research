@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .catch(error => console.error('Error fetching diseases:', error));
     }
     
+
     function populateDiseaseTable(diseases) {
       diseaseTableBody.innerHTML = ''; 
   
@@ -104,4 +105,16 @@ document.addEventListener('DOMContentLoaded', function() {
   
 
     fetchDiseases();
+
+     
+     document.getElementById('search-btn').addEventListener('click', () => {
+      const searchInput = document.getElementById('search-input').value;
+      if (searchInput.trim() !== '') {
+          
+          const searchUrl = `https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjF25L3qaiMAxUxtGgJHao3ASEYABADGgJ3Zg&co=1&gclid=EAIaIQobChMIxduS96mojAMVMbRoCR2qNwEhEAAYASAAEgLuG_D_BwE&ohost=www.google.com&cid=CAASJeRoj6FWGT1VveaITAIb-civ8R2P4-OGgiR6FkE3lkpAsa2HzbY&sig=AOD64_08L3avnb7fH_LIg5uJDE2t_KjL4g&q&adurl&ved=2ahUKEwjw8Iv3qaiMAxWucfEDHRv6AJ8Q0Qx6BAgJEAE=${encodeURIComponent(searchInput)}`;
+          window.location.href = searchUrl; 
+      } else {
+          alert('Please enter a search term');
+      }
+  });
 });
