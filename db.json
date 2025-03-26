@@ -98,7 +98,7 @@
       "animalType": "cattle",
       "symptoms": "Firm raised skin nodules up to 50mm in diameter develop around the head, neck, genitals and limbs. Nodules can develop on any part of the body.",
       "treatment": "developing and implementing an integrated insect management plan",
-      "image":"https://www.nadis.org.uk/media/1414/053111_1401_skinconditi3.png"
+      "image": "https://www.nadis.org.uk/media/1414/053111_1401_skinconditi3.png"
     },
     {
       "id": "f208",
@@ -114,18 +114,24 @@
       "animalType": "pigs",
       "symptoms": "Red or Purple skin lesions",
       "treatment": "Quarantine affected farms",
-      "image":"https://live.staticflickr.com/880/42827043322_a632001780_c.jpg"
+      "image": "https://live.staticflickr.com/880/42827043322_a632001780_c.jpg"
     },
-    
     {
       "id": "db77",
       "name": " Anthrax",
       "animalType": "cattle",
       "symptoms": "1.Chest pain and trouble breathing.\n2.Fatigue.\n3.Fever and profuse sweating.\n4.Headache or muscle aches.\n5.Itchy blisters or bumps.\n6.Skin ulcer (sore) with a black center.\n7.Nausea and vomiting, abdominal pain and bloody diarrhea.\n8.Swollen lymph nodes.",
       "treatment": "Undertaking regular vaccination programs based on the Anthrax season in the area\n1.Proper disposal of dead animals is critical; – the carcass should not be opened, since exposure to oxygen will allow the bacteria to form spores\n2.Premises are to be quarantined until all susceptible animals are vaccinated and all\n3.Carcasses disposed of preferably by incineration or alternatively by deep burial with quick lime.\n4'Cleaning and disinfection are important as is control of insects and rodents.\n5.Treatment of sick animal with appropriate antibiotics",
-      "image":"https://www.ag.ndsu.edu/news/newsreleases/2019/aug-19-2019/be-on-lookout-for-anthrax/this-animal-is-infected-with-anthrax.photo-courtesy-of-the-north/@@images/image.jpeg"
+      "image": "https://www.ag.ndsu.edu/news/newsreleases/2019/aug-19-2019/be-on-lookout-for-anthrax/this-animal-is-infected-with-anthrax.photo-courtesy-of-the-north/@@images/image.jpeg"
+    },
+    {
+      "id": "2747",
+      "name": "Newcastle Disease (ND)",
+      "animalType": "Birds",
+      "symptoms": "respiratory distress,\n neurological signs,\n digestive issues,\n reduced egg production",
+      "treatment": "use antibiotics to prevent secondary infections, and vaccination to prevent future outbreaks, are crucial. ",
+      "image": "blob:https://michael-juma.github.io/6ed41497-3504-44e2-824b-6fa80c002f95"
     }
-    
   ],
   "regions": [
     {
