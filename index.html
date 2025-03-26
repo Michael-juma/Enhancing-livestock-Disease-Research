@@ -4,14 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Disease Information</title>
+    
    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <button><li><a href="javascript:void(0);" id="about-link">About</a></li></button>
+        </ul>
+    </nav>
+    
+    <section class="container">
+    <div id="about-section" class="about-container" style="display: none;">
+        <h1>About Livestock Diseases Research</h1>
+        <p>Welcome to our Livestock Diseases Research platform. We are dedicated to providing valuable insights, data, and resources on diseases that affect livestock. Our goal is to aid farmers, veterinarians, and researchers in understanding and addressing the challenges of animal health.</p>
+
+        <h2>Our Mission</h2>
+        <p>Our mission is to contribute to the betterment of livestock health through research and data collection. By compiling detailed information on various diseases, symptoms, and treatments, we aim to provide a comprehensive resource for livestock care and management.</p>
+
+        <h2>What We Do</h2>
+        <p>We collect and organize information on livestock diseases from a variety of trusted sources, offering:
+            <ul>
+                <li>Disease Name and Information</li>
+                <li>Symptoms</li>
+                <li>Treatments and Prevention Methods</li>
+                <li>Research Articles and Resources</li>
+            </ul>
+        </p>
+
+        <h2>How We Can Help You</h2>
+        <p>Our platform allows users to search for diseases by name, animal type, and symptoms, making it easier for farmers and veterinarians to find the information they need. Additionally, our user-friendly forms allow new disease data to be added, helping to keep the information current and valuable to the community.</p>
+
+        <h2>Get Involved</h2>
+        <p>We encourage everyone to contribute to the research process. If you have valuable information or experience regarding livestock diseases, please feel free to submit your findings through our <a href="/">Add New Disease</a> form.</p>
+    </div>
     <h1>LIVESTOCKS DISEASES RESEACH</h1>
     <div class="search-container">
         <input type="text" id="search-input" placeholder="Search diseases..." />
         <button id="search-btn">Search</button>
     </div>
+    </section>
 
 
      <section class="container">
@@ -64,9 +97,18 @@
                 <button type="submit">Add Disease</button>
             </form>
         </div>
+        <div class="cart-container">
+            <img src="images/farm.jpg" alt="" class="cart-item">
+            <img src="images/mr grumpy.jpg" alt="" class="cart-item">
+            <img src="images/image 2.jpg" alt="" class="cart-item">
+            <img src="images/image 3.jpg" alt="" class="cart-item">
+            <img src="images/image 4.jpg" alt="" class="cart-item">
+            <div class="folder">
+            <img src="images/Not mine.jpg" alt="" class="cart-item">
+          </div>
+        </div>
+       
 
-        
-    
     <script src="index.js"></script>
 </body>
 </html>

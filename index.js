@@ -13,7 +13,6 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .catch(error => console.error('Error fetching diseases:', error));
     }
-  
     
     function populateDiseaseTable(diseases) {
       diseaseTableBody.innerHTML = ''; 
@@ -75,7 +74,18 @@ document.addEventListener('DOMContentLoaded', function() {
     addImageBtn.addEventListener('click', function() {
       symptomImageInput.click();
     });
-  
+    const aboutLink = document.getElementById('about-link');
+    const aboutSection = document.getElementById('about-section');
+
+    
+    aboutLink.addEventListener('click', function() {
+        
+        if (aboutSection.style.display === 'none' || aboutSection.style.display === '') {
+            aboutSection.style.display = 'block'; 
+        } else {
+            aboutSection.style.display = 'none'; 
+        }
+    });
     
     symptomImageInput.addEventListener('change', function(event) {
       const file = event.target.files[0];

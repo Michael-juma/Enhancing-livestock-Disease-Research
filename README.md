@@ -2,7 +2,7 @@
 
 # Livestock Diseases Reserve Research: Enhancing Disease Management and Prevention in Agricultural Systems
 
-**Author**: [Your Name]  
+**Author**: [Michael Obudho Juma]  
 **Project Description**:  
 This project investigates the management and prevention of livestock diseases by exploring the concept of livestock disease reserves. These reserves aim to control the spread of infectious diseases by isolating affected animals or regions and utilizing preventive measures. The study focuses on understanding the effectiveness of disease reserves in preventing outbreaks and improving animal health within agricultural systems.
 

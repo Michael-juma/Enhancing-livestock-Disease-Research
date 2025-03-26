@@ -1,9 +1,9 @@
 {
   "diseases": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Foot and Mouth Disease",
-      "imagesign": "https://www.cfsph.iastate.edu/DiseaseInfo/ImageDB/FMD/FMD_003.jpg",
+      "image": "https://www.cfsph.iastate.edu/DiseaseInfo/ImageDB/FMD/FMD_003.jpg",
       "description": "A highly contagious viral disease that affects cloven-hoofed animals like cattle, pigs, and sheep.",
       "symptoms": [
         "Fever",
@@ -24,10 +24,10 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Bovine Tuberculosis",
       "description": "A chronic bacterial infection that primarily affects cattle, but can also affect other animals and humans.",
-      "causal Bacteria image": "https://www.shutterstock.com/image-illustration/bacteria-mycobacterium-tuberculosis-causative-agent-disease-2252532773",
+      "image": "https://media.istockphoto.com/id/2171359358/photo/a-limousin-mother-cow-gently-licks-her-young-brown-calf-in-a-lush-green-field-in-summertime.jpg?s=612x612&w=0&k=20&c=GMR7EhamL6UjPn3dvyOlPVo_S1vfcji-5id6sCcR78c=",
       "symptoms": [
         "Coughing",
         "Weight loss",
@@ -47,10 +47,10 @@
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Avian Influenza (Bird Flu)",
       "description": "A viral infection that affects birds, especially poultry. It can be transmitted to humans in rare cases.",
-      "imagesign": "https://www.shutterstock.com/image-photo/rooster-dying-due-disease-2372858735",
+      "image": "https://media.gettyimages.com/id/1247605745/photo/chicks-are-seen-at-a-poultry-farm-during-checks-undergone-by-government-workers-to-examines.jpg?s=612x612&w=0&k=20&c=_jaqhiZdsZvxgB0MCVCjkt3Sz4bkPlPRpP4YiSw6rH4=",
       "symptoms": [
         "Sudden death",
         "Swelling of the head, neck, and eyes",
@@ -70,10 +70,10 @@
       ]
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "African Swine Fever",
       "description": "A viral disease affecting pigs, causing high mortality rates. It does not affect humans.",
-      "imagesign": "https://www.shutterstock.com/image-photo/asf-african-swine-fever-processing-carcasses-1535837933",
+      "image": "https://www.shutterstock.com/image-photo/african-swine-fever-virus-asfv-four-1630757314",
       "symptoms": [
         "Fever",
         "Loss of appetite",
@@ -98,7 +98,7 @@
       "animalType": "cattle",
       "symptoms": "Firm raised skin nodules up to 50mm in diameter develop around the head, neck, genitals and limbs. Nodules can develop on any part of the body.",
       "treatment": "developing and implementing an integrated insect management plan",
-      "image": null
+      "image":"https://www.nadis.org.uk/media/1414/053111_1401_skinconditi3.png"
     },
     {
       "id": "f208",
@@ -106,7 +106,7 @@
       "animalType": "cattle",
       "symptoms": "Firm raised skin nodules up to 50mm in diameter develop around the head, neck, genitals and limbs. Nodules can develop on any part of the body.",
       "treatment": "developing and implementing an integrated insect management plan",
-      "image": "blob:http://localhost:5500/0ca3c574-2a9e-4d36-a807-dae1b09b9ef2"
+      "image": "https://www.nadis.org.uk/media/1414/053111_1401_skinconditi3.png"
     },
     {
       "id": "91b4",
@@ -114,28 +114,22 @@
       "animalType": "pigs",
       "symptoms": "Red or Purple skin lesions",
       "treatment": "Quarantine affected farms",
-      "image": null
+      "image":"https://live.staticflickr.com/880/42827043322_a632001780_c.jpg"
     },
-    {
-      "id": "980b",
-      "name": "mouth and foot disease",
-      "animalType": "pigs",
-      "symptoms": "Red or Purple skin lesions",
-      "treatment": "Quarantine affected farms",
-      "image": null
-    },
+    
     {
       "id": "db77",
       "name": " Anthrax",
       "animalType": "cattle",
       "symptoms": "1.Chest pain and trouble breathing.\n2.Fatigue.\n3.Fever and profuse sweating.\n4.Headache or muscle aches.\n5.Itchy blisters or bumps.\n6.Skin ulcer (sore) with a black center.\n7.Nausea and vomiting, abdominal pain and bloody diarrhea.\n8.Swollen lymph nodes.",
       "treatment": "Undertaking regular vaccination programs based on the Anthrax season in the area\n1.Proper disposal of dead animals is critical; – the carcass should not be opened, since exposure to oxygen will allow the bacteria to form spores\n2.Premises are to be quarantined until all susceptible animals are vaccinated and all\n3.Carcasses disposed of preferably by incineration or alternatively by deep burial with quick lime.\n4'Cleaning and disinfection are important as is control of insects and rodents.\n5.Treatment of sick animal with appropriate antibiotics",
-      "image": null
+      "image":"https://www.ag.ndsu.edu/news/newsreleases/2019/aug-19-2019/be-on-lookout-for-anthrax/this-animal-is-infected-with-anthrax.photo-courtesy-of-the-north/@@images/image.jpeg"
     }
+    
   ],
   "regions": [
     {
-      "id": 1,
+      "id": "1",
       "name": "South America",
       "countries": [
         "Brazil",
@@ -147,7 +141,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Africa",
       "countries": [
         "South Africa",
@@ -161,7 +155,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Asia",
       "countries": [
         "China",
@@ -175,7 +169,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Europe",
       "countries": [
         "UK",
@@ -188,7 +182,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "North America",
       "countries": [
         "USA",
