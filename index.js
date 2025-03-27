@@ -120,3 +120,15 @@ document.addEventListener('DOMContentLoaded', function() {
       }
   });
 });
+const aboutLink = document.getElementById('about-link');
+    const aboutSection = document.getElementById('about-section');
+
+    
+    aboutLink.addEventListener('click', function() {
+        
+        if (aboutSection.style.display === 'none' || aboutSection.style.display === '') {
+            aboutSection.style.display = 'block';  
+        } else {
+            aboutSection.style.display = 'none';  
+        }
+    });
