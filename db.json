@@ -131,8 +131,15 @@
       "symptoms": "respiratory distress,\n neurological signs,\n digestive issues,\n reduced egg production",
       "treatment": "use antibiotics to prevent secondary infections, and vaccination to prevent future outbreaks, are crucial. ",
       "image": "https://infonet-biovision.org/sites/default/files/styles/full_image_popup/public/animal_health/livestock_health/3105.400x400.jpeg?itok=VzF0mwH_"
+    },
+    {
+      "id": "325c",
+      "name": "Rabies",
+      "animalType": "All Mammals",
+      "symptoms": "tingling, prickling, or itching feeling around the bite area",
+      "treatment": "Once a rabies infection is established, there's no effective treatment. Though a small number of people have survived rabies, the disease usually causes death. For that reason, if you think you've been exposed to rabies, you must get a series of shots to prevent the infection from taking hold.",
+      "image":"https://media.istockphoto.com/id/1222256422/photo/aggressive-dog-shows-dangerous-teeth-german-sheperd-attack-head-detail.jpg?s=612x612&w=0&k=20&c=fI9xjPbg9cmxGK3qbGbyXm_GCuy8Q_s3WQL74vU7OGo="
     }
-    
   ],
   "regions": [
     {
